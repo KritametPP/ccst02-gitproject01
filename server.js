@@ -1,3 +1,4 @@
+require('dontenv').config()
 const express = require('express')
 const notFound = require('./middlewares/not-found')
 const app = express()
